@@ -1,0 +1,16 @@
+/*-------------
+    RESET
+-------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*-------------
+    BODY
+-------------*/
+.container {
+    margin: auto;
+    width: 31.25rem;
+    height: 6.25rem;
+}
