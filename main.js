@@ -3,7 +3,11 @@
 -----------------*/
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
-  }
+  };
+function clockhide() {
+    const numhide = document.querySelectorAll('.numbers');
+    numhide.style.display = 'none';
+}
 /*-----------------
     MAIN
 -----------------*/
@@ -24,3 +28,4 @@ console.log(numberList)
 // Seleziono un elemento della pagina
 document.querySelector('.numbers').innerHTML = numberList;
 // 3. Parte il timer di 30 secondi
+setTimeout(clockhide, 3000)
